@@ -1,0 +1,75 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+env/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.jsonl
+*.parquet
+!shieldprompt/phase2_dataset/data/.gitkeep
+shieldprompt/phase2_dataset/data/*
+!shieldprompt/phase2_dataset/data/README.md
+
+# Model files
+*.gguf
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# Results and logs
+*.log
+logs/
+results/
+*.pkl
+*.pickle
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Ollama data (models stored by Ollama)
+# Note: Ollama models are stored in system directories
+# We only track model references and configs
